@@ -64,7 +64,7 @@ public class toggleanim : UdonSharpBehaviour
         }
     }
 
-    private void OnusePropUseDown()
+    public override void OnPickupUseDown()
     {
         if (!interact && useProp && !triggerExits && !useKey)
         {

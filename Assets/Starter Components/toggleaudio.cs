@@ -62,7 +62,7 @@ public class toggleaudio : UdonSharpBehaviour
         }
     }
 
-    private void OnusePropUseDown()
+    public override void OnPickupUseDown()
     {
         if (!interact && useProp && !triggerExits && !useKey)
         {

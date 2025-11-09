@@ -42,7 +42,7 @@ public class teleportplayer : UdonSharpBehaviour
                                               false);
         }
     }
-    private void OnusePropUseDown()
+    public override void OnPickupUseDown()
     {
         if (!interact && useProp && !useKey)
         {
