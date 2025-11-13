@@ -94,7 +94,7 @@ public class ToggleSequenceVR : UdonSharpBehaviour
         {
             Debug.Log("[StageManager] Experience Complete!");
             // Reset to a known state (optional: currentStageIndex = -1;)
-            if (FinalSceneObject != null) FinalSceneObject.SetActive(true);
+            // if (FinalSceneObject != null) FinalSceneObject.SetActive(true);
             
             // Perform final cleanup of the LAST stage's enabled objects
             ApplyStage();
@@ -120,7 +120,12 @@ public class ToggleSequenceVR : UdonSharpBehaviour
             {
                 foreach (GameObject obj in toEnable)
                 {
-                    if (obj != null) obj.SetActive(true);
+                    if (obj != null)
+                    {
+                        obj.SetActive(true);
+                        Debug.Log($"enabling: {obj.name}");
+                    }
+                    
                 }
             }
             
@@ -131,14 +136,10 @@ public class ToggleSequenceVR : UdonSharpBehaviour
                 foreach (GameObject obj in toDisable)
                 {
                     if (obj != null) obj.SetActive(false);
+                        Debug.Log($"disabling: {obj.name}");
+                    
                 }
             }
-        }
-        
-        // 2. Clean up the FinalSceneObject if the experience is running
-        if (FinalSceneObject != null && currentStageIndex >= 0)
-        {
-            FinalSceneObject.SetActive(false);
         }
     }
 
