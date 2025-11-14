@@ -1,0 +1,3326 @@
+Unity Console Log Export (Filtered)
+Generated: 2025-11-13 23:08:39
+Filter: No filters
+Total Logs: 297, Filtered: 297
+================================================================================
+
+[23:08:39.401] Unknown(8406016)
+Message: [11:07:35.957][ClientSimMain] Starting ClientSim
+File: ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (string,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (object,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:49)
+VRC.SDK3.ClientSim.ClientSimMain:Awake () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:193)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+VRC.SDK3.ClientSim.ClientSimMain:CreateInstance (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:108)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:StartClientSim (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:104)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:OnBeforeSceneLoad () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:24)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [11:07:35.996][ClientSimPlayerManager] Assigning player id 1
+File: ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (string,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (object,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:49)
+VRC.SDK3.ClientSim.ClientSimPlayerManager:InitializePlayer (VRC.SDK3.ClientSim.ClientSimPlayer,VRC.SDKBase.VRCPlayerApi,int) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerManager.cs:82)
+VRC.SDK3.ClientSim.ClientSimPlayerManager:CreateNewPlayer (bool,VRC.SDK3.ClientSim.ClientSimPlayer,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerManager.cs:154)
+VRC.SDK3.ClientSim.ClientSimPlayerSpawner:SpawnPlayer (string,bool) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerSpawner.cs:77)
+VRC.SDK3.ClientSim.ClientSimMain:SpawnLocalPlayer (string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:428)
+VRC.SDK3.ClientSim.ClientSimMain:Initialize (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:273)
+VRC.SDK3.ClientSim.ClientSimMain:CreateInstance (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:119)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:StartClientSim (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:104)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:OnBeforeSceneLoad () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:24)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [11:07:35.998][ClientSimPlayerManager] Player 1 is now master
+File: ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (string,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (object,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:49)
+VRC.SDK3.ClientSim.ClientSimPlayerManager:InitializePlayer (VRC.SDK3.ClientSim.ClientSimPlayer,VRC.SDKBase.VRCPlayerApi,int) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerManager.cs:92)
+VRC.SDK3.ClientSim.ClientSimPlayerManager:CreateNewPlayer (bool,VRC.SDK3.ClientSim.ClientSimPlayer,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerManager.cs:154)
+VRC.SDK3.ClientSim.ClientSimPlayerSpawner:SpawnPlayer (string,bool) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimPlayerSpawner.cs:77)
+VRC.SDK3.ClientSim.ClientSimMain:SpawnLocalPlayer (string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:428)
+VRC.SDK3.ClientSim.ClientSimMain:Initialize (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:273)
+VRC.SDK3.ClientSim.ClientSimMain:CreateInstance (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:119)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:StartClientSim (VRC.SDK3.ClientSim.ClientSimSettings,VRC.SDK3.ClientSim.IClientSimEventDispatcher) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:104)
+VRC.SDK3.ClientSim.ClientSimRuntimeLoader:OnBeforeSceneLoad () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/ClientSimRuntimeLoader.cs:24)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Starting skybox capture at resolution: 2048x2048
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:37
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:37)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker:Start () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:19)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Using Built-in Render Pipeline cubemap capture method
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:291
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<RenderToCubemapBuiltIn>d__10:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:291)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:50)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker:Start () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:19)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(4)
+Message: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+Stack Trace:
+
+
+----------------------------------------
+
+[23:08:39.401] Unknown(4)
+Message: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+Stack Trace:
+
+
+----------------------------------------
+
+[23:08:39.401] Unknown(4)
+Message: There are 2 audio listeners in the scene. Please ensure there is always exactly one audio listener in the scene.
+Stack Trace:
+
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [11:07:36.934][ClientSimPlayerController] Moving player to (-3.864, 0.620, 5.440) and rotation (0.000, 0.000, 0.000) (fromPlaySpace=False)
+File: ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (string,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (object,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:49)
+VRC.SDK3.ClientSim.ClientSimPlayerController:Teleport (UnityEngine.Vector3,UnityEngine.Quaternion,bool) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Player/ClientSimPlayerController.cs:242)
+VRC.SDK3.ClientSim.ClientSimPlayer:EnablePlayer (UnityEngine.Transform,single) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Player/ClientSimPlayer.cs:426)
+VRC.SDK3.ClientSim.ClientSimMain/<InitializeClientSim>d__45:MoveNext () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:383)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [AvatarScalingSettings] Avatar eye height limits have been set to 0.2 to 5 meters.
+File: ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.Udon.Wrapper.Modules.ExternUnityEngineDebug:__Log__SystemObject__SystemVoid (VRC.Udon.Common.Interfaces.IUdonHeap,System.Span`1<uint>)
+VRC.Udon.VM.UdonVM:Interpret ()
+VRC.Udon.UdonBehaviour:RunProgram (uint) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155)
+VRC.Udon.UdonBehaviour:RunEventAdvanced (string,bool) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1364)
+VRC.Udon.UdonBehaviour:RunEvent (string) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1329)
+VRC.Udon.UdonBehaviour:ManagedUpdate () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:591)
+VRC.Udon.UdonManager:Update () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonManager.cs:412)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [StageManager] Initialized with 3 stages.
+File: ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.Udon.Wrapper.Modules.ExternUnityEngineDebug:__Log__SystemObject__SystemVoid (VRC.Udon.Common.Interfaces.IUdonHeap,System.Span`1<uint>)
+VRC.Udon.VM.UdonVM:Interpret ()
+VRC.Udon.UdonBehaviour:RunProgram (uint) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155)
+VRC.Udon.UdonBehaviour:RunEventAdvanced (string,bool) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1364)
+VRC.Udon.UdonBehaviour:RunEvent (string) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1329)
+VRC.Udon.UdonBehaviour:ManagedUpdate () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:591)
+VRC.Udon.UdonManager:Update () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonManager.cs:412)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [GuideControls] Authorization denied for: [1] Local Player
+File: ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.Udon.Wrapper.Modules.ExternUnityEngineDebug:__Log__SystemObject__SystemVoid (VRC.Udon.Common.Interfaces.IUdonHeap,System.Span`1<uint>)
+VRC.Udon.VM.UdonVM:Interpret ()
+VRC.Udon.UdonBehaviour:RunProgram (uint) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1155)
+VRC.Udon.UdonBehaviour:RunEventAdvanced (string,bool) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1364)
+VRC.Udon.UdonBehaviour:RunEvent (string) (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:1329)
+VRC.Udon.UdonBehaviour:ManagedUpdate () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs:591)
+VRC.Udon.UdonManager:Update () (at ./Packages/com.vrchat.worlds/Runtime/Udon/UdonManager.cs:412)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: [11:07:37.092][ClientSimMain] ClientSim Initialized
+File: ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (string,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:43)
+VRC.SDK3.ClientSim.ClientSimExtensions:Log (object,string) (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/Utilities/ClientSimExtensions.cs:49)
+VRC.SDK3.ClientSim.ClientSimMain/<InitializeClientSim>d__45:MoveNext () (at ./Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/System/ClientSimMain.cs:403)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processing face 1/6: Right
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:103
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:103)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Starting ProcessCubemapFace for Right (index 0)
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:117
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Creating face texture for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:122
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:122)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Getting pixels from cubemap face NegativeX...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:125
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:125)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Got 4194304 pixels from cubemap
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:127
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:127)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Applied pixels to face texture for Right
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:131
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:131)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<SaveCubemapFacesCoroutine>d__6:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SkyboxBaker/<BakeSkyboxCoroutine>d__5:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:60)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Creating flipped texture for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:135
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:135)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Getting pixels from face texture for flipping...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:139
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:139)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processing 4194304 pixels in chunks of 512...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:147
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:147)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 10 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 20 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 30 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 40 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 50 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 60 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 70 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 80 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 90 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 100 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 110 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 120 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 130 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 140 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 150 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 160 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 170 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 180 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 190 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 200 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 210 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 220 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 230 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 240 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 250 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 260 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 270 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 280 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 290 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 300 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 310 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 320 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 330 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 340 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 350 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 360 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 370 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 380 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 390 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 400 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 410 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 420 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 430 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 440 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 450 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 460 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 470 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 480 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 490 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 500 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 510 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 520 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 530 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 540 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 550 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 560 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 570 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 580 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 590 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 600 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 610 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 620 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 630 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 640 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 650 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 660 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 670 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 680 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 690 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 700 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 710 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 720 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 730 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 740 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 750 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 760 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 770 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 780 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 790 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 800 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 810 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 820 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 830 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 840 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 850 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 860 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 870 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 880 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 890 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 900 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 910 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 920 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 930 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 940 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 950 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 960 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 970 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 980 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 990 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1000 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1010 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1020 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1030 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1040 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1050 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1060 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1070 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1080 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1090 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1100 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1110 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1120 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1130 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1140 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1150 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1160 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1170 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1180 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1190 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1200 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1210 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1220 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1230 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1240 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1250 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1260 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1270 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1280 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1290 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1300 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1310 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1320 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1330 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1340 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1350 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1360 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1370 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1380 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1390 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1400 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1410 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1420 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.401] Unknown(8406016)
+Message: Processed 1430 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1440 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1450 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1460 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1470 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1480 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1490 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1500 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1510 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1520 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1530 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1540 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1550 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1560 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1570 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1580 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1590 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1600 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1610 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1620 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1630 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1640 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1650 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1660 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1670 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1680 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1690 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1700 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1710 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1720 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1730 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1740 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1750 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1760 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1770 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1780 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1790 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1800 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1810 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1820 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1830 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1840 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1850 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1860 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1870 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1880 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1890 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1900 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1910 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1920 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1930 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1940 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1950 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1960 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1970 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1980 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 1990 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2000 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2010 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2020 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2030 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2040 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2050 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2060 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2070 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2080 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2090 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2100 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2110 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2120 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2130 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2140 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2150 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2160 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2170 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2180 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2190 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2200 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2210 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2220 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2230 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2240 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2250 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2260 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2270 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2280 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2290 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2300 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2310 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2320 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2330 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2340 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.402] Unknown(8406016)
+Message: Processed 2350 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2360 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2370 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2380 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2390 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2400 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2410 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2420 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2430 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2440 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2450 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2460 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2470 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2480 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2490 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2500 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2510 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2520 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2530 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2540 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2550 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2560 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2570 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2580 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2590 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2600 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2610 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2620 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2630 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2640 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2650 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2660 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2670 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2680 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2690 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2700 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2710 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2720 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2730 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(8406016)
+Message: Processed 2740 chunks for Right...
+File: Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165
+Stack Trace:
+
+UnityEngine.Debug:Log (object)
+SkyboxBaker/<ProcessCubemapFace>d__7:MoveNext () (at Assets/Scott/Utilities/SkyboxBaker/SkyboxBaker.cs:165)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+----------------------------------------
+
+[23:08:39.403] Unknown(270337)
+Message: Progressive Lightmapper: Material render job skipped - out of system memory.
+File: C:\build\output\unity\unity\Editor\Src\GI\EditorHelpers.cpp:60
+Stack Trace:
+
+
+----------------------------------------
+

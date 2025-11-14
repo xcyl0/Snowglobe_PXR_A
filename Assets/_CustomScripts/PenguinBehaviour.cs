@@ -13,6 +13,7 @@ public class PenguinBehaviour : UdonSharpBehaviour
 	[SerializeField] private float _waypointThreshold = 0.5f;
 	[SerializeField] private float _rotationSpeed = 5f;
 	[SerializeField] private GameObject _collectionArea;
+	[SerializeField] private AudioSource _penguinAudioSource;
 	
 	private int _currentWaypointIndex;
 	private Transform _currentTarget;
@@ -96,7 +97,13 @@ public class PenguinBehaviour : UdonSharpBehaviour
 		}
 	}
 
-	
+	public override void OnPickup()
+	{
+		base.OnPickup();
+		_penguinAudioSource.Play();
+	}
+
+
 	private bool IsInCollectionArea()
 	{
 		if (_collectionArea == null) return false;

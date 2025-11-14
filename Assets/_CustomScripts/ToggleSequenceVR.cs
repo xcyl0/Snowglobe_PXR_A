@@ -31,6 +31,8 @@ public class ToggleSequenceVR : UdonSharpBehaviour
     [Header("STAGE 2: Second Interaction")]
     public GameObject[] S2_Enable;
     public GameObject[] S2_Disable;
+    public AudioSource TransitionSFX;
+    public AudioSource BedroomMusic;
     
     // ADD MORE HERE: e.g., public GameObject[] S3_Enable; public GameObject[] S3_Disable;
 
@@ -88,6 +90,12 @@ public class ToggleSequenceVR : UdonSharpBehaviour
         
         // Increment the stage index
         currentStageIndex++;
+
+        if (currentStageIndex == 2)
+        {
+            TransitionSFX.Play();
+            BedroomMusic.Stop();
+        }
         
         // Handle completion
         if (currentStageIndex >= totalStages)
