@@ -33,6 +33,10 @@ public class ToggleSequenceVR : UdonSharpBehaviour
     public GameObject[] S2_Disable;
     public AudioSource TransitionSFX;
     public AudioSource BedroomMusic;
+    public AudioSource Mom1Audio;
+    public AudioSource Mom2Audio;
+    public AudioSource MamaPenguinAudio;
+    public DoorSwing DoorSwing;
     
     // ADD MORE HERE: e.g., public GameObject[] S3_Enable; public GameObject[] S3_Disable;
 
@@ -149,6 +153,27 @@ public class ToggleSequenceVR : UdonSharpBehaviour
                 }
             }
         }
+    }
+
+
+    public void PlayMom1Audio()
+    {
+        Mom1Audio.Play();
+    }
+
+    public void PlayMom2Audio()
+    {
+        Mom2Audio.Play();
+    }
+
+    public void PlayMamaPenguinAudio()
+    {
+        MamaPenguinAudio.Play();
+    }
+
+    public void PlayDoorSwing()
+    {
+        DoorSwing.StartDoorSwing();
     }
 
     // This method is called when the synced variable (currentStageIndex) changes on the network.

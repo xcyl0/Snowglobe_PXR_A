@@ -22,6 +22,8 @@ public class GuideMenu : UdonSharpBehaviour
     public UdonBehaviour worldLogicTarget;
 
     private bool isGuide = false;
+
+    public Transform TeleportOutsideLocation;
     
     // Define the VR input button name for the Quest 3 (Right Thumbstick Click)
     private const string VR_TOGGLE_BUTTON = "Oculus_CrossPlatform_SecondaryThumbstick";
@@ -112,43 +114,33 @@ public class GuideMenu : UdonSharpBehaviour
 
     public void SnowglobeSwitchStep()
     {
-        Debug.Log("Sent this");
         worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(ToggleSequenceVR.AdvanceStage));
     }
-    
-    /// <summary>
-    /// Example: Toggles a secret door state globally.
-    /// </summary>
-    public void ToggleSecretDoor()
+
+    public void Mom1AudioEvent()
     {
-        // Example logic: Send a synchronized event to all clients
-        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(HandleDoorToggle));
-        Debug.Log("[GuideControls] Requested door toggle.");
+        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(ToggleSequenceVR.PlayMom1Audio));
+    }
+    public void Mom2AudioEvent()
+    {
+        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(ToggleSequenceVR.PlayMom2Audio));
+    }
+    public void MamaPenguinAudioEvent()
+    {
+        Debug.Log("sent");
+        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(ToggleSequenceVR.PlayMamaPenguinAudio));
     }
 
-    /// <summary>
-    /// Example: Triggers a narrative sound cue globally.
-    /// </summary>
-    public void TriggerSoundCue()
+    public void DoorSwingEvent()
     {
-        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(HandleSoundCue));
-        Debug.Log("[GuideControls] Requested sound cue.");
+        worldLogicTarget.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, nameof(ToggleSequenceVR.PlayDoorSwing));
     }
     
-    // --- Networked Event Handlers ---
-    // These methods run on ALL clients after the guide calls them.
-    
-    public void HandleDoorToggle()
+    public void TeleportOutsideEvent()
     {
-        // Replace with your actual logic to toggle the door/object
-        Debug.Log("[WORLD LOGIC] Secret Door State Changed!");
-        // Example: doorObject.SetActive(!doorObject.activeSelf);
-    }
-    
-    public void HandleSoundCue()
-    {
-        // Replace with your actual logic to play a sound
-        Debug.Log("[WORLD LOGIC] Playing narrative sound cue now.");
-        // Example: audioSource.Play();
+        Networking.LocalPlayer.TeleportTo(TeleportOutsideLocation.position, 
+            TeleportOutsideLocation.rotation, 
+            VRC_SceneDescriptor.SpawnOrientation.Default, 
+            false);
     }
 }
