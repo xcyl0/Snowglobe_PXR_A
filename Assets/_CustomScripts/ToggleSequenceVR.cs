@@ -36,6 +36,9 @@ public class ToggleSequenceVR : UdonSharpBehaviour
     public AudioSource Mom1Audio;
     public AudioSource Mom2Audio;
     public AudioSource MamaPenguinAudio;
+    public AudioSource MusicSnowball;
+    public AudioSource MusicMaze;
+    public AudioSource MusicCandy;
     public DoorSwing DoorSwing;
     
     // ADD MORE HERE: e.g., public GameObject[] S3_Enable; public GameObject[] S3_Disable;
@@ -98,6 +101,9 @@ public class ToggleSequenceVR : UdonSharpBehaviour
         if (currentStageIndex == 2)
         {
             TransitionSFX.Play();
+            MusicSnowball.Play();
+            MusicCandy.Play();
+            MusicMaze.Play();
             BedroomMusic.Stop();
         }
         
