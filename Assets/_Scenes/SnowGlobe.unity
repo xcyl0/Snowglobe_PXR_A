@@ -6219,8 +6219,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
+      time: 0.011621475
+      value: 0.65540314
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6228,8 +6228,8 @@ AudioSource:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.09394312
-      value: 0.98347646
+      time: 0.10169077
+      value: 0.6502779
       inSlope: -0.15556301
       outSlope: -0.15556301
       tangentMode: 0
@@ -7391,7 +7391,7 @@ PrefabInstance:
     - target: {fileID: 7416450269121181248, guid: 223c974b085789c43a8ff79634506dec,
         type: 3}
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
-      value: 0.12687159
+      value: 0.12105799
       objectReference: {fileID: 0}
     - target: {fileID: 7416450269121181248, guid: 223c974b085789c43a8ff79634506dec,
         type: 3}
@@ -7405,8 +7405,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416450269121181248, guid: 223c974b085789c43a8ff79634506dec,
         type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].value
+      value: 0.71805954
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416450269121181248, guid: 223c974b085789c43a8ff79634506dec,
+        type: 3}
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
-      value: 0.9920214
+      value: 0.70723134
       objectReference: {fileID: 0}
     - target: {fileID: 7416450269121181248, guid: 223c974b085789c43a8ff79634506dec,
         type: 3}
